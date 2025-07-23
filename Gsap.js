@@ -1,132 +1,122 @@
-// Register ScrollTrigger
+// gsap.js
 gsap.registerPlugin(ScrollTrigger);
 
-// Page Load Animation
-gsap.from(".home__content, .home__img-wrapper", {
-  opacity: 0,
+// Home Section
+gsap.from(".home__small, .home__title, .home__description, .home__btns", {
   y: 50,
-  duration: 1.2,
-  ease: "power4.out",
-  stagger: 0.3,
-});
-
-// Navbar Animation
-gsap.from("header nav", {
-  y: -100,
   opacity: 0,
   duration: 1,
-  ease: "power2.out",
+  ease: "power4.out",
+  stagger: 0.2
+});
+gsap.from(".home__img", {
+  scale: 0.8,
+  opacity: 0,
+  duration: 1.2,
+  ease: "back.out(1.7)"
 });
 
 // About Section
-gsap.from( {
-  scrollTrigger: {
-    start: "top 100%",
-  },
-  opacity: 0,
-  scale: 0.8,
-  stagger: 0.2,
-  duration: 1,
-  ease: "back.out(1.7)",
-});
 
 gsap.from(".about__content", {
   scrollTrigger: {
     trigger: ".about__content",
     start: "top 80%",
   },
-  opacity: 0,
   x: 100,
+  opacity: 0,
   duration: 1,
-  ease: "power3.out",
+  ease: "power2.out"
 });
 
 // Qualification Section
-gsap.from(".resume__item", {
+gsap.from(".resume__group", {
   scrollTrigger: {
-    trigger: ".qualification",
+    trigger: ".resume__container",
     start: "top 80%",
   },
-  opacity: 0,
   y: 50,
+  opacity: 0,
   stagger: 0.3,
   duration: 1,
-  ease: "power2.out",
+  ease: "power3.out"
 });
 
 // Services Section
-gsap.from(".services__item", {
-  scrollTrigger: {
-    trigger: ".services__container",
-    start: "top 85%",
-  },
-  opacity: 0,
-  y: 50,
-  stagger: 0.2,
-  duration: 0.9,
-  ease: "power2.out",
+gsap.utils.toArray(".services__item").forEach((item, i) => {
+  gsap.from(item, {
+    scrollTrigger: {
+      trigger: item,
+      start: "top 85%",
+      toggleActions: "play none none none",
+    },
+    scale: 0.8,
+    opacity: 0,
+    duration: 0.8,
+    ease: "back.out(1.7)",
+    delay: i * 0.2, // stagger effect
+  });
 });
+
 
 // Skills Section
 gsap.from(".skills__item", {
   scrollTrigger: {
     trigger: ".skills__container",
-    start: "top 85%",
+    start: "top 80%",
   },
+  x: -100,
   opacity: 0,
-  y: 50,
   stagger: 0.2,
   duration: 1,
-  ease: "power2.out",
+  ease: "power2.out"
 });
 
 // Portfolio Section
-// gsap.from(".work__card", {
-//   scrollTrigger: {
-//     trigger: ".work__container",
-//     start: "top 85%",
-//   },
-//   opacity: 1,
-//   scale: 0.8,
-//   stagger: 0.2,
-//   duration: 1,
-//   ease: "back.out(1.7)",
-// });
+gsap.from(".work__card", {
+  scrollTrigger: {
+    trigger: ".work__container",
+    start: "top 80%",
+  },
+  y: 50,
+  opacity: 0,
+  stagger: 0.2,
+  duration: 1,
+  ease: "power3.out"
+});
 
 // Testimonials Section
 gsap.from(".testimonials__item", {
   scrollTrigger: {
-    trigger: ".testimonials",
-    start: "top 85%",
+    trigger: ".testimonials__conatiner",
+    start: "top 80%",
   },
+  x: 100,
   opacity: 0,
-  y: 50,
-  stagger: 0.3,
   duration: 1,
-  ease: "power2.out",
+  stagger: 0.3,
+  ease: "power2.out"
 });
 
 // Contact Section
-gsap.from(".contact-form, .contact-info", {
+gsap.from(".contact-info-block", {
   scrollTrigger: {
-    trigger: ".contact",
-    start: "top 85%",
+    trigger: ".contact-info",
+    start: "top 80%",
   },
+  x: -50,
   opacity: 0,
-  y: 50,
-  duration: 1,
-  ease: "power2.out",
   stagger: 0.2,
-});
-
-// Footer Animation
-gsap.from(".footer__container", {
-  scrollTrigger: {
-    trigger: ".footer",
-    start: "top 90%",
-  },
-  opacity: 0,
-  y: 30,
   duration: 1,
-  ease: "power2.out",
+  ease: "power2.out"
+});
+gsap.from(".contact-form", {
+  scrollTrigger: {
+    trigger: ".contact-form",
+    start: "top 80%",
+  },
+  y: 50,
+  opacity: 0,
+  duration: 1,
+  ease: "power2.out"
 });
