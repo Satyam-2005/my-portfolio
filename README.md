@@ -2,7 +2,7 @@
 
 A personal portfolio website showcasing my skills, experience, and projects. Built using **HTML**, **CSS**, **JavaScript**, and **GSAP**, it delivers smooth animations, a responsive layout, and an engaging user experience.
 
-🔗 [Live Demo](https://satyam-2005.github.io/my-portfolio/)  
+🔗 [Live Demo](https://satyam-2005.github.io/my-portfolio/index.html)  
 📂 [Repository](https://github.com/Satyam-2005/my-portfolio)
 
 ---
