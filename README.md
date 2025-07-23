@@ -18,8 +18,8 @@ A personal portfolio website showcasing my skills, experience, and projects, bui
 
 ## 🧩 Tech Stack
 
-- **React.js** – Functional components & React Hooks  
-- **Vite** – Fast build and development toolchain  
+- **js** – Functional components & React Hooks  
+- **html** – Fast build and development toolchain  
 - **CSS** – Vanilla CSS for lightweight and flexible styling
 
 ---
