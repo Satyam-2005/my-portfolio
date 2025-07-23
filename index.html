@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="icon" type="image/png" href="./assets/img/SRM-white.png">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init({
+            publicKey: "8ZCbuq6N2-xf8UeSY",
+          });
+      })();
+    </script>
+    <script src="script.js"></script>
+    <title>satyam- portfolio</title>
+  </head>
+  <body>
+    <!--==================== STYLE SWITCHER ====================-->
+    <div class="style__switcher"></div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header">
+      <nav class="container">
+        <div class="nav__toggle" aria-label="Open navigation" tabindex="0">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <a href="index.html" class="nav__logo">Satyam</a>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#qualification" class="nav__link">Qualification</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__small">Hello</span>
+            <h1 class="home__title">
+              <span>I am</span> Satyam Raj Mahakul <br />
+              a <span>Full stack Developer</span>
+            </h1>
+
+            <p class="home__description">
+              Passionate about building robust, scalable, and user-centric web applications. I specialize in both frontend and backend development, creating seamless digital experiences with clean code and creative solutions.
+            </p>
+
+            <div class="home__btns flex gap-x-4">
+              <a href="#contact" class="btn">Hire Me</a>
+              <a href="assets/pdf/Satyam-Raj-Mahakul.pdf"  download class="btn btn-transparent">Download CV</a>
+            </div>
+          </div>
+
+          <div class="home__img-wrapper">
+            <img src="assets/img/meef.png" alt="" class="home__img w-65" />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__img-wrapper">
+            <img src="assets/img/cv pic.jpg" class="about__img w-90" alt="" />
+            <img src="assets/img/cv pic.jpg" class="about__img w-90" alt="" />
+            <img src="assets/img/cv pic.jpg" class="about__img w-90" alt="" />
+            <img src="assets/img/cv pic.jpg" class="about__img w-90" alt="" />
+          </div>
+
+          <div class="about__content">
+            <h2 class="section__title" data-title="Who am i?">
+              i am satyam raj mahakul, a full stack devloper.
+            </h2>
+            <div class="about__description">
+              Full-stack WebDeveloper with strong proficiency in JavaScript
+              (ES6+), React.js,Node.js, Expression.js, vercel,vite,
+              mySQL,framer,figma, currently pursuing a B.Tech in Computer
+              Science at Trident Academy of Technology, Bhubaneswar, Odisha.
+              Passionate about creating interactive and user friendly
+              applications, and constantly learning new technologies to grow as
+              a developer.
+            </div>
+            <ul class="about__data grid">
+              <li class="data_item">
+                <h3 class="data_title">Name:</h3>
+                <span class="data__description">Satyam Raj Mahakul</span>
+              </li>
+              <li class="data_item">
+                <h3 class="data_title">Age:</h3>
+                <span class="data__description">20 Years</span>
+              </li>
+              <li class="data_item">
+                <h3 class="data_title">From:</h3>
+                <span class="data__description"
+                  >Bhubaneswar, Odisha, India</span
+                >
+              </li>
+              <li class="data_item">
+                <h3 class="data_title">Email:</h3>
+                <span class="data__description about__link"
+                  >mahakulsatyamraj@gmail.com</span
+                >
+              </li>
+            </ul>
+            <div class="about__bottom">
+              <a href="assets/pdf/Satyam-Raj-Mahakul.pdf" download class="btn">Download CV</a>
+
+              <div class="about__social-links">
+                <a href="https://x.com/satyamraj4002" target="_blank" class="about__social-link">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/ll_satyam_styling_ll?igsh=ZDNqNGtnc3ZqNmxu" target="_blank" class="about__social-link">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://github.com/Satyam-2005" target="_blank" class="about__social-link">
+                  <i class="fa-brands fa-square-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/satyam-raj-mahakul-a926b2288" target="_blank" about__social-link">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title title-center" data-title="My Journey">
+          Qualification
+        </h2>
+        <div class="resume__container container grid">
+          <div class="resume__group">
+            <h3 class="resume__heading">Education</h3>
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <div class="resume__subtitle">CoderHouse Course</div>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Secondary School</h3>
+                    <span class="resume__date">2010-2020</span>
+                  </div>
+                  <p class="resume__description">
+                    SSVM, Rasulgarh <br />
+                    CGPA/Percentage: 72% <br />
+                    Bhubaneswar, India
+                  </p>
+                </div>
+              </div>
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Higher Studies</h3>
+                  <span class="resume__icon">-</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">
+                      Higher Secondary Certificate (Science Stream)
+                    </h3>
+                    <span class="resume__date">2021-2023</span>
+                  </div>
+                  <p class="resume__description">
+                    Jupiter group of institutions, Gangapada <br />
+                    • Percentage: 75% <br />
+                    Bhubaneswar, India <br />
+                    • Key Subjects: Physics, Chemistry, Mathematics, Biology
+                  </p>
+                </div>
+              </div>
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Higher Studies</h3>
+                  <span class="resume__icon">-</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">
+                      Bachelor of Technology (B.Tech), Computer Science &
+                      Engineering,
+                    </h3>
+                    <span class="resume__date">2024-2028</span>
+                  </div>
+                  <p class="resume__description">
+                    Trident Academy of Technology, Bhubaneswar <br />
+                    • Current SGPA: -- 7.8 <br />
+                    09/2024 – Present <br />
+                    Bhubaneswar, India <br />
+                    • Relevant Coursework: Programming Fundamentals, Mathematics
+                    for <br />
+                    Computing, Basic Electronics, Engineering Physics
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="resume__group">
+            <h3 class="resume__heading">Experience</h3>
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <div class="resume__subtitle">CoderHouse Course</div>
+                  <span class="resume__icon">+</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Soft Tech Inc.</h3>
+                    <span class="resume__date">2023-PRESENT</span>
+                  </div>
+                  <p class="resume__description">
+                    Collaborating with cross-functional teams to design and develop user-friendly web applications. Responsible for frontend and backend integration, performance optimization, and delivering scalable solutions using modern web technologies.
+                  </p>
+                </div>
+              </div>
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Coding</h3>
+                  <span class="resume__icon">-</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Frontend Development</h3>
+                    <span class="resume__date">2023-2024</span>
+                  </div>
+                  <p class="resume__description">
+                    Built responsive websites and interactive UIs using HTML, CSS, JavaScript, and frameworks like React. Focused on user experience, accessibility, and performance optimization.
+                  </p>
+                </div>
+              </div>
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Coding</h3>
+                  <span class="resume__icon">-</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Backend Development</h3>
+                    <span class="resume__date">2024-2025</span>
+                  </div>
+                  <p class="resume__description">
+                    Developed scalable server-side applications using Node.js and Express. Integrated databases like MongoDB and MySQL, implemented REST APIs, and handled user authentication and authorization.
+                  </p>
+                </div>
+              </div>
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Python & Data Analysis</h3>
+                  <span class="resume__icon">-</span>
+                </div>
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Data Analysis with Python</h3>
+                    <span class="resume__date">2025–PRESENT</span>
+                  </div>
+                  <p class="resume__description">
+                    Learned Python libraries like Pandas, NumPy, and Matplotlib to clean, analyze, and visualize data for real-world insights and decision-making.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title title-center" data-title="Services">
+          What I do for you
+        </h2>
+
+        <div class="services__container container grid">
+          <div class="services__item">
+            <li class="fa-solid fa-pen-to-square services-icon"></li>
+            <h3 class="survices__title">UI/UX Design</h3>
+            <p class="services__description">
+              I design intuitive, user-friendly interfaces with a focus on seamless user experience, accessibility, and visual appeal. From wireframes to prototypes, I ensure every detail enhances usability.
+            </p>
+            <span class="services__no">01</span>
+          </div>
+          <div class="services__item">
+            <li class="fa-solid fa-laptop services-icon"></li>
+            <h3 class="survices__title">Web Development</h3>
+            <p class="services__description">
+               I build fast, responsive, and scalable websites using modern frontend and backend technologies. Whether it’s a landing page or a full-stack web app, I craft solutions that perform and impress.
+            </p>
+            <span class="services__no">02</span>
+          </div>
+          <div class="services__item">
+            <li class="fa-solid fa-chart-area services-icon"></li>
+            <h3 class="survices__title">Data Analysis</h3>
+            <p class="services__description">
+              I analyze and visualize data to extract actionable insights. Using tools like Python, Pandas, and Matplotlib, I help transform raw data into meaningful strategies for smarter decisions.
+            </p>
+            <span class="services__no">03</span>
+          </div>
+          <!-- <div class="services__item">
+            <li class="fa-solid fa-pen-to-square services-icon"></li>
+            <h3 class="survices__title">UI/UX Design</h3>
+            <p class="services__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              culpa reiciendis
+            </p>
+            <span class="services__no">04</span>
+          </div>
+          <div class="services__item">
+            <li class="fa-solid fa-laptop services-icon"></li>
+            <h3 class="survices__title">Web Development</h3>
+            <p class="services__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              culpa reiciendis
+            </p>
+            <span class="services__no">05</span>
+          </div>
+          <div class="services__item">
+            <li class="fa-solid fa-chart-area services-icon"></li>
+            <h3 class="survices__title">Data Analysis</h3>
+            <p class="services__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              culpa reiciendis
+            </p>
+            <span class="services__no">06</span>
+          </div> -->
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section">
+        <h2 class="section__title title-center" data-title="My Talent">
+          Professional Skills
+        </h2>
+
+        <div class="skills__container container grid">
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Javascript</h3>
+              <span class="skills__no">90%</span>
+            </div>
+            <p class="skills__description">
+              A versatile scripting language used for building dynamic, interactive web applications. I leverage JavaScript to enhance user interfaces, implement complex logic, and ensure responsive front-end behavior.
+            </p>
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 90%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Python</h3>
+              <span class="skills__no">75%</span>
+            </div>
+            <p class="skills__description">
+              A powerful and readable programming language known for its wide application in web development, automation, and data analysis. I utilize Python for scripting, building backend services, and working with data pipelines.
+            </p>
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 75%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">React</h3>
+              <span class="skills__no">80%</span>
+            </div>
+            <p class="skills__description">
+              A modern JavaScript library for building fast, scalable, and modular user interfaces. I use React to create dynamic, single-page applications with reusable components and seamless user experiences.
+            </p>
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 80%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">NumPy</h3>
+              <span class="skills__no">70%</span>
+            </div>
+            <p class="skills__description">
+              A foundational Python library for numerical computing and array manipulation. I use NumPy extensively in data analysis and machine learning projects for efficient mathematical operations and large-scale data processing.
+            </p>
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 70%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Pandas</h3>
+              <span class="skills__no">80%</span>
+            </div>
+            <p class="skills__description">
+              A powerful Python library for data manipulation and analysis. I employ Pandas to clean, transform, and analyze structured data, enabling actionable insights and data-driven decisions.
+            </p>
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 80%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">figma</h3>
+              <span class="skills__no">85%</span>
+            </div>
+            <p class="skills__description">
+              A collaborative UI/UX design tool used for designing web and mobile interfaces. I use Figma to prototype user experiences, create design systems, and collaborate effectively with teams during the design process.
+            </p>
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="works section" id="works">
+        <h2 class="section__title title-center" data-title="My Portfolio">
+          Recent Works
+        </h2>
+
+        <div class="work__container container grid">
+          <div class="work__card">
+            <img src="assets/img/project-img-1.jpg" class="work__img" alt="" />
+
+            <div class="work__details">
+              <h3 class="work__title">Web design</h3>
+              <span class="work__description"
+                > Crafted a responsive, pixel-perfect web design focused on user experience and modern UI trends.</span
+              >
+            </div>
+          </div>
+          <div class="work__card">
+            <img src="assets/img/project-img-2.jpg" class="work__img" alt="" />
+
+            <div class="work__details">
+              <h3 class="work__title">React Native</h3>
+              <span class="work__description"
+                >Built a fully functional cross-platform mobile app using React Native with seamless performance and UI consistency.</span
+              >
+            </div>
+          </div>
+          <div class="work__card">
+            <img src="assets/img/project-img-3.jpg" class="work__img" alt="" />
+
+            <div class="work__details">
+              <h3 class="work__title">Photoshop</h3>
+              <span class="work__description"
+                >Designed custom graphics and visual assets using Adobe Photoshop for web, branding, and digital campaigns.</span
+              >
+            </div>
+          </div>
+          <div class="work__card">
+            <img src="assets/img/project-img-4.jpg" class="work__img" alt="" />
+
+            <div class="work__details">
+              <h3 class="work__title">UI/UX Design</h3>
+              <span class="work__description"
+                >Delivered a clean, intuitive, and user-centric interface through research-driven UI/UX design practices.</span
+              >
+            </div>
+          </div>
+          <div class="work__card">
+            <img src="assets/img/project-img-5.jpg" class="work__img" alt="" />
+
+            <div class="work__details">
+              <h3 class="work__title">Web Development</h3>
+              <span class="work__description"
+                >Developed a full-stack web application with optimized performance, responsive design, and backend integration.</span
+              >
+            </div>
+          </div>
+          <div class="work__card">
+            <img src="assets/img/project-img-6.jpg" class="work__img" alt="" />
+
+            <div class="work__details">
+              <h3 class="work__title">Data Analysis</h3>
+              <span class="work__description"
+                > Analyzed complex datasets to extract insights and built dashboards for clear, actionable data visualization.</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIALS ====================-->
+      <section class="testimonials section">
+        <h2 class="section__title title-center" data-title="Testimonials">
+          What my client Say
+        </h2>
+        <div class="testimonials__conatiner container grid">
+          <div class="testimonials__item">
+            <p class="testimonials__description">
+              I was truly impressed by Satyam's technical knowledge and problem-solving skills. He built our platform with clean code and efficient backend logic. Highly recommend him for any full-stack development project.
+            </p>
+
+            <div class="testimonials__data">
+              <img src="assets/img/ChatGPT Image Jul 23, 2025, 08_27_42 AM.png" alt="" class="testimonials__img">
+              <h3 class="testmonials__name">Subhashis Badapanda</h3>
+              <span class="testimonial__identity">Bhubaneswar, Odisha</span>
+            </div>
+          </div>
+          <div class="testimonials__item">
+            <p class="testimonials__description">
+              Working with Satyam was an outstanding experience. His ability to turn ideas into fully functional, visually appealing web apps exceeded our expectations. Always on time and communicative throughout the entire process.
+            </p>
+
+            <div class="testimonials__data">
+              <img src="assets/img/ChatGPT 2.png" alt="" class="testimonials__img">
+              <h3 class="testmonials__name">Shriyans Swain</h3>
+              <span class="testimonial__identity">Cuttuck, Odisha</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title title-center" data-title="Get in Touch">
+          Contact Me
+        </h2>   
+        <div class="contact-page-bg">
+          <div class="contact-container">
+            <div class="contact-content">
+              <div class="contact-info">
+                <div class="contact-info-block">
+                  <i class="fa-solid fa-phone"></i>
+                  <div>
+                    <span class="contact-info-label">Call Us</span>
+                    <span class="contact-info-value">+123-45-67-89</span>
+                  </div>
+                </div>
+                <div class="contact-info-block">
+                  <i class="fa-solid fa-envelope"></i>
+                  <div>
+                    <span class="contact-info-label">Email Us</span>
+                    <span class="contact-info-value">mahakulsatyamraj@mail.com</span>
+                  </div>
+                </div>
+                <div class="contact-info-block">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <div>
+                    <span class="contact-info-label">Address</span>
+                    <span class="contact-info-value">Rasulgarh, Bhubaneswar, Odisha</span>
+                  </div>
+                </div>
+              </div>
+              <form  onsubmit="emailSend(); this.reset(); return false;"  class="contact-form">
+                <div class="contact-form-row">
+      
+                  <input type="text" class="contact-input" id="name" name="name" required placeholder="Name" required>
+                  <input type="email" class="contact-input" id="email" name="email" required placeholder="Email" required>
+                </div>
+                <div class="contact-form-row">
+                  <input type="text" class="contact-input"  id="subject" name="subject" required placeholder="Subject" required>
+                </div>
+                <div class="contact-form-row">
+                  <textarea class="contact-textarea" id="message"  name="message" required placeholder="Message" required></textarea>
+                </div>
+                <!-- <input type="hidden" name="access_key" value="b4b09e6a-a967-41e9-a8c5-91b3a25577a0"> -->
+                <button type="submit"  class="contact-btn">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>     
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container">
+        <div class="footer__socials">
+          <a href="https://github.com/Satyam-2005" target="_blank" class="footer__social" aria-label="Twitter"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/ll_satyam_styling_ll?igsh=ZDNqNGtnc3ZqNmxu" target="_blank" class="footer__social" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/satyam-raj-mahakul-a926b2288" target="_blank" class="footer__social" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="footer__copyright">
+          &copy; 2024 Satyam Raj Mahakul. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+  <script src="Gsap.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</html>
